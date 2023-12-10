@@ -17,7 +17,7 @@
 
 ## How to setup PostgreSQL
 
-Setup a Postgres server locally and create a database. Get the database URL which will look something like this: `DATABASE_URL=postgres://davidsims:@127.0.0.1:5432/davidsims` and past it into your .env file. Then run `npx prisma migrate`.
+Setup a Postgres server locally and create a database. Get the database URL which will look something like this: `DATABASE_URL=postgres://davidsims:@127.0.0.1:5432/davidsims` and past it into your .env file. Then run `npx prisma migrate dev`.
 
 Reference this article if you're having difficulties with the migrations or setup:
 https://www.prisma.io/docs/orm/prisma-migrate/getting-started
