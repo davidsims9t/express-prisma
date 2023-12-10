@@ -1,0 +1,9 @@
+{
+    "include": ["./src/**/*"],
+    "files": [
+        "person.d.ts"
+    ],
+    "compilerOptions": {
+        "esModuleInterop": true
+    }
+}
