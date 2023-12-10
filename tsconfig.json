@@ -1,9 +1,10 @@
 {
     "include": ["./src/**/*"],
     "files": [
-        "person.d.ts"
+        "global.d.ts"
     ],
     "compilerOptions": {
+        "strictNullChecks": true,
         "esModuleInterop": true
     }
 }
